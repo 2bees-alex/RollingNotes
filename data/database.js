@@ -14,6 +14,7 @@
 /* Grabbing node-modules */
 var q = require('q');
 var pmongo = require('promised-mongo');
+var dotenv = require('dotenv').load();
 
 /* Configuring MongoDb entrypoint */
 var mongoUri = process.env.MONGOLAB_URI ||
